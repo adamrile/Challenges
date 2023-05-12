@@ -57,9 +57,9 @@ To run the tests, execute the following command in your terminal:
 
 # Files
 
-main.py: The main script that connects to the football API, fetches competition and team data, and processes it.
+`main.py`: The main script that connects to the football API, fetches competition and team data, and processes it.
 
-create_tables.py: Contains the get_db_connection() function to set up a connection to the PostgreSQL database.
+`create_tables.py`: Contains the get_db_connection() function to set up a connection to the PostgreSQL database.
 
 # Explanation
 
