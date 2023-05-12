@@ -4,9 +4,9 @@ This repository contains a Python script that simulates a data pipeline where yo
 
 # Features
 
-Connects to the football API and fetches competition and team data
-Inserts competition and team data into a database
-Generates a summary CSV file containing the number of teams in each competition
+- Connects to the football API and fetches competition and team data
+- Inserts competition and team data into a database
+- Generates a summary CSV file containing the number of teams in each competition
 
 # Requirements
 
@@ -36,12 +36,12 @@ Generates a summary CSV file containing the number of teams in each competition
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/football-api-data-ingestion.git
-cd football-api-data-ingestion
+`git clone https://github.com/yourusername/football-api-data-ingestion.git`
+`cd football-api-data-ingestion`
 
 2. Install the required packages:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 3. Set up the PostgreSQL database 'football' and configure the connection details in create_tables.py file.
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 To run the tests, execute the following command in your terminal:
 
-- pytest tests.py
+- `pytest tests.py`
 
 # Files
 
