@@ -24,12 +24,10 @@ Generates a summary CSV file containing the number of teams in each competition
 2. Obtain an API key from the Football-Data API website.
 3. Create a .env file in the root directory of the project, and add the following lines:
 
--`DATABASE_USERNAME`=<your-username>
--`DATABASE_IP`=<your-IP>
--`DATABASE_HOST`=<your-db>
--`DATABASE_PORT`=<your-port>
--`DATABASE_NAME`=<your-db-name>
--`DATABASE_PASSWORD`=<your-db-password>
+- `DATABASE_USERNAME`: The username of the PostgreSQL database.
+- `DATABASE_IP`: The IP address of the PostgreSQL database.
+- `DATABASE_PORT`: The port number of the PostgreSQL database.
+- `DATABASE_NAME`: The name of the PostgreSQL database.
 
 4. Install the required Python packages by running pip install -r requirements.txt
 5. Create the tables in the Postgres database by running python create_tables.py
