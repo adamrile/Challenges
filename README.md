@@ -10,9 +10,13 @@ Generates a summary CSV file containing the number of teams in each competition
 
 # Requirements
 
-Python 3.6 or later
-requests library
-PostgreSQL database
+- Python 3.6 or later
+- requests library
+- time library
+- os library 
+- csv
+- json
+- PostgreSQL database
 
 # Setup
 
