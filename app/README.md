@@ -1,6 +1,6 @@
 # PostgreSQL Database Management Python Script
 
-This Python script allows you to interact with a PostgreSQL database by providing functionality to connect to the database, create tables and drop tables. This script uses the `psycopg2` module to connect to the database.
+This `create_tables.py` Python script allows you to interact with a PostgreSQL database by providing functionality to connect to the database, create tables and drop tables. This script uses the `psycopg2` module to connect to the database.
 
 ## Installation
 
